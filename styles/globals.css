@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
+
+
+
+* {
+
+  box-sizing:border-box;
+  /* margin: 0 auto; */
+  padding: 0;
+}
+
+.topicfont{
+  font-family: 'Macondo Swash Caps', cursive;
+  color: rgb(224, 165, 0);
+  font-size: 90px;
+}
+
+*>*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+
+.fontAwesome {
+  font-family: Helvetica, 'FontAwesome', sans-serif;
+}
+
+body {
+  background-image: url(../public/bg.jpg);
+  background-position: 'center';
+  background-size:'cover';
+  background-repeat: 'no-repeat';
+  width: 100%;
+  
+}
+
+
+
+
+form label{
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+.searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 40px;
+  background-color: #F8C015;
+  border-radius: 30px;
+  padding: 8px;
+  }
+
+  .search_input{
+  color: rgb(0, 0, 0);
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 15px;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 250px;
+  caret-color:rgb(0, 0, 0);
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon{
+  background: #F8C015;
+  color: #ffffff;
+  }
+
+  .searchbar::placeholder{
+    color: #000000;
+    }
+  
+
+  .search_icon{
+  height: 25px;
+  width: 25px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+  text-decoration:none;
+  }
+
+  .searchend{
+    display: flex !important;
+    justify-content: flex-end !important ;
+  }
+::placeholder{
+    color: rgb(0, 0, 0);
+  }
