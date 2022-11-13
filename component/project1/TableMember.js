@@ -69,7 +69,7 @@ export default function FormInput() {
   return (
     <div>
       
-      {/* <div className=" mb-3">
+      <div className=" mb-3">
         <div className="searchend">
           <div className="searchbar">
             <input
@@ -87,7 +87,7 @@ export default function FormInput() {
             </a>
           </div>
         </div>
-      </div> */}
+      </div>
      
       <Row>
         <Table className="striped hover  border-0">
