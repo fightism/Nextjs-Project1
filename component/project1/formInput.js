@@ -10,7 +10,6 @@ import AgeError from "./AgeError";
 import { ADD_MEMBER } from "../../redux/crudReducer";
 import { useDispatch } from "react-redux";
 import { generateDiceBearBottts } from "./RandomPic";
-
 import Image from "next/image";
 
 export default function FormInput() {
