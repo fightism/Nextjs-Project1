@@ -1,5 +1,5 @@
 import UpdateInput from "./UpdateInput";
-import FormInput from "./formInput";
+import FormInput from "./FormInput";
 import { useSelector, useDispatch } from "react-redux";
 
 
